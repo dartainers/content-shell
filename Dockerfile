@@ -5,7 +5,7 @@ LABEL Description="Docker image with Dart runtime and Content Shell"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV CHANNEL stable
-ENV SDK_VERSION 1.19.0
+ENV SDK_VERSION 1.19.1
 ENV ARCHIVE_URL https://storage.googleapis.com/dart-archive/channels/$CHANNEL/release/$SDK_VERSION
 
 RUN echo 'deb http://archive.ubuntu.com/ubuntu/ precise multiverse' >> /etc/apt/sources.list
